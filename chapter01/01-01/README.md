@@ -1,6 +1,6 @@
-## Node Overview
+## Chapter 1: Node Overview
 
-### DOM (Document Object Model) Hierarchy / Tree of Javascript Node Objects
+### 1.1 DOM (Document Object Model) Hierarchy / Tree of Javascript Node Objects
 
 * Parsed by a browser
 * Converted into a tree structure

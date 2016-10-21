@@ -1,4 +1,4 @@
-### Subnode Objects Inherit From the Node Object
+### 1.3 Subnode Objects Inherit From the Node Object
 
 * Object < Node < Element < HTMLElement < (e.g., HTML*Element)
 * Object < Node < Attr (this is deprecated in DOM4)

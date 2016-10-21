@@ -1,4 +1,4 @@
-### Node Object Types
+### 1.2 Node Object Types
 
 * DOCUMENT_NODE (e.g., window.document)
 * ELEMENT_NODE (e.g., \<body>, \<a>, \<p>, \<script>, \<style>, \<html>, \<h1>)
