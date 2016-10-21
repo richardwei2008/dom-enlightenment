@@ -17,7 +17,7 @@
 >
 > The insertAdjacentHTML options beforebegin and afterend will only work if the node is in the DOM tree and has a parent element.
 >
-> textContent gets the content of all elements, including <script> and <style> elements, but innerText does not.
+> textContent gets the content of all elements, including \<script> and \<style> elements, but innerText does not.
 >
 > innerText is aware of style and will not return the text of hidden elements, whereas textContent will.
 >
