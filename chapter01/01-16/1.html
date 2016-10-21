@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body><ul><!-- comment -->
+    <li id="A"></li>
+    <li id="B"></li>
+    <!-- comment -->
+</ul>
+<script>
+    //cache selection of the ul
+    var ul = document.querySelector('ul');
+    //What is the parentNode of the ul?
+    console.log(ul.parentNode.nodeName); //logs body
+    //What is the first child of the ul?
+    console.log(ul.firstChild.nodeName); //logs comment
+    //What is the last child of the ul?
+    console.log(ul.lastChild.nodeName); /* logs text not comment,
+     because there is a line break */
+    //What is the nextSibling of the first li?
+    console.log(ul.querySelector('#A').nextSibling.nodeName); //logs text
+    //What is the previousSibling of the last li?
+    console.log(ul.querySelector('#B').previousSibling.nodeName); //logs text
+</script>
+</body>
+</html>
