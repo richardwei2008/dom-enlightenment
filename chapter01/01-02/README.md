@@ -1,7 +1,7 @@
 ### Node Object Types
 
 * DOCUMENT_NODE (e.g., window.document)
-* ELEMENT_NODE (e.g., <body>, <a>, <p>, <script>, <style>, <html>, <h1>)
+* ELEMENT_NODE (e.g., \<body>, \<a>, \<p>, \<script>, \<style>, \<html>, \<h1>)
 * ATTRIBUTE_NODE (e.g., class="funEdges")
 * TEXT_NODE (e.g., text characters in an HTML document including carriage returns and whitespace)
 * DOCUMENT_FRAGMENT_NODE (e.g., document.createDocumentFragment())
