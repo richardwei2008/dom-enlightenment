@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<a href="#"></a>
+<script>
+    console.log(Array.isArray(document.links)); /* returns false, it's an
+     HTMLCollection not an Array */
+    console.log(Array.isArray(document.querySelectorAll('a'))); /* returns false, it's
+     a NodeList not an
+     Array */
+</script>
+</body>
+</html>
