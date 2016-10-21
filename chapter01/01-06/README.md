@@ -2,4 +2,6 @@
 
 * The nodeValue property returns null for most of the node types (except Text and Comment).
 
+> Notes
+>
 > Text or Comment node values can be set by providing new string values for the nodeValue property (i.e., document.body.firstElement Child.nodeValue = 'hi').
