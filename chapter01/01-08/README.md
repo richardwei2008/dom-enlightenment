@@ -22,3 +22,4 @@
 > innerText is aware of style and will not return the text of hidden elements, whereas textContent will.
 >
 > Available to all modern browsers except Firefox are insertAdjacentElement() and insertAdjacentText().
+>
