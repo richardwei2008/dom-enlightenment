@@ -1,4 +1,4 @@
-2.4 document Child Nodes
+### 2.4 document Child Nodes
 
 document nodes can contain one DocumentType node object and one Element node object. This should not be a surprise, since HTML documents typically contain only one doctype (e.g., \<!DOCTYPE html>) and one element (e.g., \<html lang="en">). Thus, if you ask for the children (e.g., document.childNodes) of the document object, you will get an array containing, at the very least, the document’s doctype/DTD and \<html lang="en"> element.
 
