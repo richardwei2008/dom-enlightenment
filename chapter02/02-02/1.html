@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    //document own properties
+    console.log(Object.keys(document).sort());
+    //document own properties and inherited properties
+    var documentPropertiesIncludeInherited = [];
+    for (var p in document) {
+        documentPropertiesIncludeInherited.push(p);
+    }
+    console.log(documentPropertiesIncludeInherited.sort());
+    //documment inherited properties only
+    var documentPropertiesOnlyInherited = [];
+    for (var p in document) {
+        if (!document.hasOwnProperty(p)) {
+            documentPropertiesOnlyInherited.push(p);
+        }
+    }
+    console.log(documentPropertiesOnlyInherited.sort());
+</script>
+</body>
+</html>
