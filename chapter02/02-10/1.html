@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<iframe src="http://someFileServedFromServerOnSameDomain.html"></iframe>
+<script>
+    //get the window.document that the <body> is contained within
+    console.log(document.body.ownerElement);
+    //get the window.document the <body> inside of the iframe is contained within
+    console.log(window.frames[0].document.body.ownerElement);
+</script>
+</body>
+</html>
